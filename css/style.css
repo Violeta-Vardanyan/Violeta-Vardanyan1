@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @font-face {
+    font-family: AngelicWar;
+    src: url(fonts/AngelicWar.ttf);
+   
+  } */
+
+h1, p{
+    font-family: AngelicWar;
+    width: 65%;
+    margin: 30px auto;
+    text-align: center;
+    color:#6269A2;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+main {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align:center;
+    background-image: url(../img/jen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+
+}
+.week {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#week1, #week2{
+    color: rgba(255, 0, 0, 0.6);
+}
+.tab {
+    margin: 5px auto;
+    padding: 5px;
+}
+
+tr td {
+    padding: 10px;
+    color:blanchedalmond;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+.jan {
+    background-color: rgba(132, 132, 223, 0.6);
+    padding: 8px;
+    margin: 10px;
+    color:rgb(247, 247, 247);
+    border-radius: 15px 15px;
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    background-color: #757FBD;
+    width: 65%;
+    text-align: center;
+    margin:  0 auto;
+    border-radius: 15px 15px 0 0;
+    
+}
+.month{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.btn_div {
+    width: 50%;
+    text-align: center;
+    margin: 15px auto;
+}
+.btn1, .btn2 {
+    width: 70px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+border: none;
+cursor: pointer;
+color:white;
+border-radius: 15px 15px;
+}
+.btn1 {
+    background-color:#394289;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn2 {
+    background-color:#394289;
+    font-style: italic;
+    font-weight: bold;
+}
+
